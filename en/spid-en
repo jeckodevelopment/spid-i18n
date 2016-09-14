@@ -1,0 +1,88 @@
+{
+  "spid-texts": {
+  
+    "version": "1.0",
+    "default": "it"
+
+  },
+  
+  "language": {
+    
+    "en": {
+      
+      "spid_sigla"                          : "SPID",
+      "spid_esteso"                         : "Digital Identity Public System",
+      "spid_descrizione"                    : ["SPID allows you to access all the online service of the Italian Public Administrations and approved companies, using only one digital identity account.", "If you already have a digital identity, please log in using your account details.", "If you don't have a digital identity yet, please register for a new one choosing the desired provider."],
+
+      "lnk_home"                            : "http://www.spid.gov.it/",
+      "lnk_cosa_cambia"                     : "http://www.spid.gov.it/#cosa-cambia",
+      "lnk_le_credenziali"                  : "http://www.spid.gov.it/#le-credenziali",
+      "lnk_ottieni_spid"                    : "http://www.spid.gov.it/#ottieni-spid",
+      "lnk_i_servizi"                       : "http://www.spid.gov.it/#i-servizi",
+
+      "str_livello_1_estesa"                : "SPID Level 1 Authentication",
+      "str_livello_2_estesa"                : "SPID Level 2 Authentication",
+      "str_livello_3_estesa"                : "SPID Level 3 Authentication",
+      "str_livello_1_ridotta"               : "SPID Level 1",
+      "str_livello_2_ridotta"               : "SPID Level 2",
+      "str_livello_3_ridotta"               : "SPID Level 3",
+      "dsc_livello_1"                       : "This service requires access with SPID Level 1 Authentication. It requires username, password and the authorization to treat data needed by the service.",
+      "dsc_livello_2"                       : "This service requires access with SPID Level 2 Authentication. It requires username, password, security code and the authorization to treat data needed by the service.",
+      "dsc_livello_3"                       : "This service requires access with SPID Level 3 Authentication. It requires username, password, access device and the authorization to treat data needed by the service.",
+
+      "str_username"                        : "Username",
+      "str_password"                        : "Password",
+      "str_nome_utente_dimenticato"         : "Forgot Username ?",
+      "str_password_dimenticata"            : "Forgot Password ?",
+      "str_credenziali_accesso_dimenticati" : "Forgot login details ?",
+      "str_mostra_password"                 : "Show password",
+      "str_annulla"                         : "Cancel",
+      "str_codice"                          : "Security Code",
+      "str_codice_non_ricevuto"             : "Security Code not received ?",
+      
+      "btn_prosegui"                        : "Next",
+      "btn_entra_con_spid"                  : "Login with SPID",
+      "btn_autorizza"                       : "Authorize",
+      
+      "msg_livello_2"                       : "To access this service, you need to insert the Security Code you just received.",
+      "msg_livello_3"                       : "To access this service, you need to use the device provided.",
+      "msg_livello_3"                       : "To access this service, you need to grant an authorization to treat the following data:",
+      
+      "msg_errore_generico"                 : "Service is currently unavailable. Please try again later. Thank you !",
+      "msg_errore_L1"                       : "Type username and password !",
+      "msg_errore_L2"                       : "Username is not valid !",
+      "msg_errore_L3"                       : "Password is not valid !",
+      "msg_errore_L4"                       : "Username and/or password are not valid !",
+      "msg_errore_L5"                       : "Please type the temporary device code to proceed !",
+      "msg_errore_L6"                       : "Temporary code is not valid !",
+      "msg_errore_L7"                       : "Temporary code expired !",
+      "msg_errore_L8"                       : "Third level access device has not been detected !",
+      "msg_errore_2"                        : "Service is currently unavailable. Please try again later otherwise please contact the service provider (Error code: 2). Thank you !",
+      "msg_errore_3"                        : "Service is currently unavailable. Please try again later otherwise please contact the service provider (Error code: 3). Thank you !",
+      "msg_errore_4"                        : "Service is currently unavailable. Please try again later otherwise please contact the service provider (Error code: 4). Thank you !",
+      "msg_errore_5"                        : "Service is currently unavailable. Please try again later otherwise please contact the service provider (Error code: 5). Thank you !",
+      "msg_errore_6"                        : "Service is currently unavailable. Please try again later otherwise please contact the service provider (Error code: 6). Thank you !",
+      "msg_errore_7"                        : "Service is currently unavailable. Please try again later otherwise please contact the service provider (Error code: 7). Thank you !", Grazie !",
+      "msg_errore_10"                       : "Service is currently unavailable. Please try again later otherwise please contact the service provider (Error code: 10). Thank you !",
+      "msg_errore_19"                       : "Service is currently unavailable. Please try again later otherwise please contact the service provider (Error code: 19). Thank you !",
+          
+      "enc_identity_providers"              : [
+                                                {
+                                                  "idp_impresa"            : "Infocert", 
+                                                  "idp_nome_servizio_spid" : "Infocert ID"
+                                                },
+                                                {
+                                                  "idp_impresa"            : "Poste Italiane", 
+                                                  "idp_nome_servizio_spid" : "Poste ID"
+                                                },
+                                                {
+                                                  "idp_impresa"            : "Telecom", 
+                                                  "idp_nome_servizio_spid" : "TIM ID"
+                                                }
+                                              ]
+
+    }
+  
+  }
+
+}
